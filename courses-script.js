@@ -54,7 +54,7 @@ $(document).ready(function() {
         {
             title: "ETHICAL HACKING",
             duration: "2 MONTH",
-            image: "./courses/Ethical-hacking.jpg",
+            image: "./courses/Ethical-Hacking.jpg",
             link: "ethical-hacking.html"
         },
         {
