@@ -1,0 +1,210 @@
+/* Global Styles */
+:root {
+    --primary-yellow: #ffc107;
+    --dark-color: #212529;
+    --light-color: #ffffff;
+    --gray-color: #6c757d;
+}
+
+/* About Header Section */
+.about-header {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.yellow-line {
+    width: 60px;
+    height: 5px;
+    background-color: var(--primary-yellow);
+    margin-bottom: 20px;
+}
+
+.about-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.team-images {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.team-img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.about_img{
+    border-radius: 15px;
+}
+
+/* Learn Section */
+.learn-section {
+    background-color: var(--light-color);
+}
+
+.founders {
+    margin-top: 40px;
+}
+
+.founders h3 {
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: rgb(241, 158, 4);
+    color: var(--light-color);
+    border-top-left-radius: 250px;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.feature-card h4 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* Certifications Section */
+.certifications {
+    background-color: var(--light-color);
+}
+
+.certification-img {
+    transition: transform 0.3s ease;
+    max-width: 150px;
+}
+
+.certification-img:hover {
+    transform: scale(1.05);
+}
+
+/* Branches Section */
+.branch-card {
+    background: var(--light-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.branch-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.branch-card:hover {
+    transform: translateY(-5px);
+}
+
+.branch-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.branch-card h4 {
+    padding: 20px;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+.branch-card p {
+    padding: 0 20px 20px;
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--gray-color);
+}
+
+/* Who We Are Section */
+.who-we-are {
+    background-color: var(--light-color);
+}
+
+.who-we-are h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.who-we-are h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .about-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .yellow-line {
+        margin: 0 auto 20px;
+    }
+    
+    .team-images {
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .about-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .team-images {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .team-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .feature-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .about-title {
+        font-size: 2rem;
+    }
+    
+    .team-img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .branch-card {
+        margin-bottom: 30px;
+    }
+}

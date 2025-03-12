@@ -1,0 +1,334 @@
+[
+    {
+      "avatar": "./placement/1.png",
+      "id": "1"
+    },
+    {
+      "avatar": "./placement/2.png",
+      "id": "2"
+    },
+    {
+      "avatar": "./placement/3.png",
+      "id": "3"
+    },
+    {
+      "avatar": "./placement/4.png",
+      "id": "4"
+    },
+    {
+      "avatar": "./placement/5.png",
+      "id": "5"
+    },
+    {
+      "avatar": "./placement/6.png",
+      "id": "6"
+    },
+    {
+      "avatar": "./placement/7.png",
+      "id": "7"
+    },
+    {
+      "avatar": "./placement/8.png",
+      "id": "8"
+    },
+    {
+      "avatar": "./placement/9.png",
+      "id": "9"
+    },
+    {
+      "avatar": "./placement/10.png",
+      "id": "10"
+    },
+    {
+        "avatar": "./placement/11.png",
+        "id": "11"
+      },
+      {
+        "avatar": "./placement/12.png",
+        "id": "12"
+      },
+      {
+        "avatar": "./placement/13.png",
+        "id": "13"
+      },
+      {
+        "avatar": "./placement/14.png",
+        "id": "14"
+      },
+      {
+        "avatar": "./placement/15.png",
+        "id": "15"
+      },
+      {
+        "avatar": "./placement/16.png",
+        "id": "16"
+      },
+      {
+        "avatar": "./placement/17.png",
+        "id": "17"
+      },
+      {
+        "avatar": "./placement/18.png",
+        "id": "18"
+      },
+      {
+        "avatar": "./placement/19.png",
+        "id": "19"
+      },
+      {
+        "avatar": "./placement/20.png",
+        "id": "20"
+      },
+      {
+        "avatar": "./placement/21.png",
+        "id": "21"
+      },
+      {
+        "avatar": "./placement/22.png",
+        "id": "22"
+      },
+      {
+        "avatar": "./placement/23.png",
+        "id": "23"
+      },
+      {
+        "avatar": "./placement/24.png",
+        "id": "24"
+      },
+      {
+        "avatar": "./placement/25.png",
+        "id": "25"
+      },
+      {
+        "avatar": "./placement/26.png",
+        "id": "26"
+      },
+      {
+        "avatar": "./placement/27.png",
+        "id": "27"
+      },
+      {
+        "avatar": "./placement/28.png",
+        "id": "28"
+      },
+      {
+        "avatar": "./placement/29.png",
+        "id": "29"
+      },
+      {
+        "avatar": "./placement/30.png",
+        "id": "30"
+      },
+      {
+        "avatar": "./placement/31.png",
+        "id": "31"
+      },
+      {
+        "avatar": "./placement/32.png",
+        "id": "32"
+      },
+      {
+        "avatar": "./placement/33.png",
+        "id": "33"
+      },
+      {
+        "avatar": "./placement/34.png",
+        "id": "34"
+      },
+      {
+        "avatar": "./placement/35.jpeg",
+        "id": "35"
+      },
+      {
+        "avatar": "./placement/36.jpeg",
+        "id": "36"
+      },
+      {
+        "avatar": "./placement/37.jpeg",
+        "id": "37"
+      },
+      {
+        "avatar": "./placement/38.jpeg",
+        "id": "38"
+      },
+      {
+        "avatar": "./placement/39.jpeg",
+        "id": "39"
+      },
+      {
+        "avatar": "./placement/40.jpeg",
+        "id": "40"
+      },
+      {
+        "avatar": "./placement/41.png",
+        "id": "41"
+      },
+      {
+        "avatar": "./placement/42.png",
+        "id": "42"
+      },
+      {
+        "avatar": "./placement/43.png",
+        "id": "43"
+      },
+      {
+        "avatar": "./placement/44.png",
+        "id": "44"
+      },
+      {
+        "avatar": "./placement/45.png",
+        "id": "45"
+      },
+      {
+        "avatar": "./placement/46.png",
+        "id": "46"
+      },
+      {
+        "avatar": "./placement/47.png",
+        "id": "47"
+      },
+      {
+        "avatar": "./placement/48.png",
+        "id": "48"
+      },
+      {
+        "avatar": "./placement/49.png",
+        "id": "49"
+      },
+      {
+        "avatar": "./placement/50.png",
+        "id": "50"
+      },
+      {
+        "avatar": "./placement/51.jpeg",
+        "id": "51"
+      },
+      {
+        "avatar": "./placement/52.jpeg",
+        "id": "52"
+      },
+      {
+        "avatar": "./placement/53.jpeg",
+        "id": "53"
+      },
+      {
+        "avatar": "./placement/54.jpeg",
+        "id": "54"
+      },
+      {
+        "avatar": "./placement/55.jpeg",
+        "id": "55"
+      },
+      {
+        "avatar": "./placement/56.jpeg",
+        "id": "56"
+      },
+      {
+        "avatar": "./placement/57.jpeg",
+        "id": "57"
+      },
+      {
+        "avatar": "./placement/58.jpeg",
+        "id": "58"
+      },
+      {
+        "avatar": "./placement/59.jpeg",
+        "id": "59"
+      },
+      {
+        "avatar": "./placement/60.jpeg",
+        "id": "60"
+      },
+      {
+        "avatar": "./placement/61.jpeg",
+        "id": "61"
+      },
+      {
+        "avatar": "./placement/62.jpeg",
+        "id": "62"
+      },
+      {
+        "avatar": "./placement/63.jpeg",
+        "id": "63"
+      },
+      {
+        "avatar": "./placement/64.jpeg",
+        "id": "64"
+      },
+      {
+        "avatar": "./placement/65.jpeg",
+        "id": "65"
+      },
+      {
+        "avatar": "./placement/66.jpeg",
+        "id": "66"
+      },
+      {
+        "avatar": "./placement/67.jpeg",
+        "id": "67"
+      },
+      {
+        "avatar": "./placement/68.jpeg",
+        "id": "68"
+      },
+      {
+        "avatar": "./placement/69.jpeg",
+        "id": "69"
+      },
+      {
+        "avatar": "./placement/70.jpeg",
+        "id": "70"
+      },
+      {
+        "avatar": "./placement/71.jpeg",
+        "id": "71"
+      },
+      {
+        "avatar": "./placement/72.jpeg",
+        "id": "72"
+      },
+      {
+        "avatar": "./placement/73.jpeg",
+        "id": "73"
+      },
+      {
+        "avatar": "./placement/74.jpeg",
+        "id": "74"
+      },
+      {
+        "avatar": "./placement/75.jpeg",
+        "id": "75"
+      },
+      {
+        "avatar": "./placement/76.jpeg",
+        "id": "76"
+      },
+      {
+        "avatar": "./placement/77.jpeg",
+        "id": "77"
+      },
+      {
+        "avatar": "./placement/78.jpeg",
+        "id": "78"
+      },
+      {
+        "avatar": "./placement/79.jpeg",
+        "id": "79"
+      },
+     {
+        "avatar": "./placement/80.jpeg",
+        "id": "80"
+      },
+      {
+        "avatar": "./placement/81.jpeg",
+        "id": "81"
+      },
+      {
+        "avatar": "./placement/82.jpeg",
+        "id": "82"
+      },
+      {
+        "avatar": "./placement/83.jpeg",
+        "id": "83"
+      }
+  ]

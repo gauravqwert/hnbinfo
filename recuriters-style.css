@@ -1,0 +1,120 @@
+/* Recruiters Header Section */
+.recruiters-header {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.recruiters-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.yellow-line {
+    width: 60px;
+    height: 5px;
+    background-color: var(--primary-yellow);
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    max-width: 200px;
+    margin-left: auto;
+}
+
+
+
+/* Companies Grid Section */
+.companies-grid {
+    padding: 40px 0;
+    background-color: var(--light-color);
+}
+
+.company-card {
+    background: var(--light-color);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.company-card.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.company-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure images are responsive */
+.company-image {
+    text-align: center;
+    overflow: hidden;
+}
+
+.company-image img {
+    width: 100%;
+    max-width: 150px; /* Adjust based on need */
+    height: 100px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+.company-card:hover img {
+    transform: scale(1.05);
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .recruiters-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .yellow-line {
+        margin: 0 auto 20px;
+    }
+    
+    .logo-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .recruiters-content h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .recruiters-header {
+        padding: 40px 0;
+    }
+    
+    .recruiters-content h1 {
+        font-size: 2rem;
+    }
+    
+    .company-card {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .recruiters-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .company-card {
+        padding: 10px;
+    }
+}

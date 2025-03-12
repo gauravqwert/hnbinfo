@@ -1,0 +1,199 @@
+/* Global Styles */
+:root {
+    --primary-green: #4cca5b;
+    --primary-yellow: #ffc107;
+    --dark-color: #212529;
+    --light-color: #ffffff;
+    --gray-color: #6c757d;
+}
+/* Reviews Header Section */
+.reviews-header {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.reviews-content h5 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.reviews-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.yellow-line {
+    width: 60px;
+    height: 5px;
+    background-color: var(--primary-yellow);
+    margin-bottom: 20px;
+}
+
+/* Employment Ready Section */
+.employment-ready {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--dark-color);
+}
+
+.section-text {
+    font-size: 1rem;
+    color: var(--gray-color);
+    line-height: 1.8;
+}
+
+/* Student Reviews Section */
+.student-reviews-section {
+    position: relative;
+}
+
+.green-curve {
+    background-color: var(--primary-green);
+    position: relative;
+    padding: 80px 0;
+    border-radius: 0 0 50% 50% / 0 0 100px 100px;
+}
+
+.reviews-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.review-card {
+    background: var(--light-color);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.stars {
+    margin-right: 10px;
+}
+
+.review-date {
+    color: var(--gray-color);
+    font-size: 0.9rem;
+    margin-right: 10px;
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.review-text {
+    margin-bottom: 15px;
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.reviewer-name {
+    font-weight: 600;
+    color: var(--dark-color);
+}
+
+
+
+/* Trustmory Logo */
+.trustmory-logo {
+    height: 20px;
+    margin-left: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .reviews-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .yellow-line {
+        margin: 0 auto 20px;
+    }
+    
+    .logo-container {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .reviews-title {
+        font-size: 2.5rem;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .reviews-header,
+    .employment-ready {
+        padding: 40px 0;
+    }
+    
+    .green-curve {
+        padding: 60px 0;
+        border-radius: 0 0 50% 50% / 0 0 50px 50px;
+    }
+    
+    .reviews-title {
+        font-size: 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.8rem;
+    }
+    
+    .review-card {
+        margin: 10px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .reviews-title {
+        font-size: 1.5rem;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .review-text {
+        font-size: 0.9rem;
+    }
+    
+    .reviewer-name {
+        font-size: 0.9rem;
+    }
+}

@@ -1,0 +1,141 @@
+/* Global Styles */
+:root {
+    --primary-orange: #ff8c00;
+    --primary-yellow: #ffc107;
+    --dark-color: #212529;
+    --light-color: #ffffff;
+    --gray-color: #6c757d;
+}
+/* Contact Header Section */
+.contact-header {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.yellow-line {
+    width: 60px;
+    height: 5px;
+    background-color: var(--primary-yellow);
+    margin-bottom: 20px;
+}
+
+.contact-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Social Media Section */
+.social-media {
+    background-color: var(--light-color);
+}
+
+.social-icons a {
+    color: var(--dark-color);
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: var(--primary-yellow);
+}
+
+/* Contact Form Section */
+.contact-form-section {
+    background-color: var(--primary-orange);
+    color: var(--light-color);
+}
+
+.contact-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.contact-form .form-control {
+    background-color: var(--light-color);
+    border: none;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.contact-form .btn {
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.location {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.location h3 {
+    color: var(--light-color);
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.location p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+/* Map Section */
+.map-container {
+    width: 100%;
+    height: 450px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .contact-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .yellow-line {
+        margin: 0 auto 20px;
+    }
+    
+    .contact-title {
+        font-size: 2.5rem;
+    }
+    
+    .social-media .col-lg-6:first-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-title {
+        font-size: 2rem;
+    }
+    
+    .contact-form {
+        margin-top: 30px;
+    }
+    
+    .location {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact-title {
+        font-size: 1.8rem;
+    }
+    
+    .social-icons {
+        text-align: center;
+    }
+    
+    .contact-form {
+        padding: 20px;
+    }
+}

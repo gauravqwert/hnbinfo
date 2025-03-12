@@ -1,0 +1,185 @@
+/* Global Styles */
+:root {
+    --primary-orange: #ff8c00;
+    --primary-yellow: #ffc107;
+    --dark-color: #212529;
+    --light-color: #ffffff;
+    --gray-color: #6c757d;
+}
+/* Course Header Section */
+.course-header {
+    padding: 60px 0;
+    background-color: var(--light-color);
+}
+
+.yellow-line {
+    width: 60px;
+    height: 5px;
+    background-color: var(--primary-yellow);
+    margin-bottom: 20px;
+}
+
+.course-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Job Positions Section */
+.positions-card {
+    background: var(--light-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    position: relative;
+}
+
+.positions-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, var(--primary-yellow) 0%, transparent 50%);
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.positions-card .card-header {
+    background: var(--primary-yellow);
+    padding: 20px;
+    color: var(--dark-color);
+}
+
+.positions-card .card-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.positions-card .subtitle {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.positions-card .card-body {
+    padding: 30px;
+}
+
+.position-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.position-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.position-list li::before {
+    content: '•';
+    color: var(--primary-yellow);
+    position: absolute;
+    left: 0;
+}
+
+/* Course Overview */
+.course-overview {
+    padding: 30px;
+}
+
+.course-overview h3 {
+    margin-bottom: 20px;
+}
+
+/* Course Lessons Section */
+.course-lessons {
+    background-color: var(--primary-orange);
+    padding: 60px 0;
+    border-top-left-radius: 250px;
+}
+
+.accordion-item {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.accordion-button {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-yellow);
+    color: var(--dark-color);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.lesson-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lesson-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.lesson-list li:last-child {
+    border-bottom: none;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 991.98px) {
+    .course-content {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .yellow-line {
+        margin: 0 auto 20px;
+    }
+    
+    .course-title {
+        font-size: 2.5rem;
+    }
+    
+    .positions-card {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .course-title {
+        font-size: 2rem;
+    }
+    
+    .positions-card .card-body {
+        padding: 20px;
+    }
+    
+    .position-list {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .course-title {
+        font-size: 1.8rem;
+    }
+    
+    .accordion-button {
+        padding: 12px 15px;
+    }
+}
